@@ -1,0 +1,19 @@
+{
+"name": "Browser history",
+"version": "1.0",
+"manifest_version": 3,
+"description": "A chrome extension to give the user insight into browser usage",
+"permissions": [
+    "tabs",
+    "storage"
+  ],
+
+"action":{
+  "default_title": "TEST NAME",
+  "default_popup":"popup/popup.html"
+},
+
+"background":{
+  "service_worker":"background.js"
+}
+}
